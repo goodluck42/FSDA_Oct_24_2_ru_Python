@@ -36,4 +36,11 @@ print("\\n - \n newline")
 print("\\ - escaping")
 
 
+a = 3
+b = 3
+
+c = a * 10 + b
+
+print(c + 5)
+
 
