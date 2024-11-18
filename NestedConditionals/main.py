@@ -67,3 +67,9 @@ a = 42
 b = 42.0
 c = "my text"
 d = False
+
+a = 20
+# a is between 20 and 50
+
+if 20 < a < 50:
+    pass
