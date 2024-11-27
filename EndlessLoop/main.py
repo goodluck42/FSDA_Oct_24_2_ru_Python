@@ -42,5 +42,10 @@ a = randint(1, 100)
 
 print(a)
 
+attempt = 0
 
+while True:
+    value = int(input())
 
+    if value == random:
+        ...
