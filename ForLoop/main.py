@@ -10,6 +10,7 @@
 #
 #     if i >= 10:
 #         break
+from turtledemo.penrose import start
 
 # a = 0
 #
