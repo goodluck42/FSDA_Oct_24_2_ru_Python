@@ -82,3 +82,18 @@ while i < 10:
         print(nums[i])
 
     i += 1
+
+print("#################")
+my_list = [1, 2, 3, 4, 5, 10]
+
+
+i = 0
+sum = 0
+while i < 6:
+    sum += my_list[i]
+
+    i += 1
+
+print(sum)
+
+
