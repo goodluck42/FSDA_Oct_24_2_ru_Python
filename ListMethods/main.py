@@ -88,5 +88,21 @@ else:
 #  0      1      2      3
 # [Nazir, Tural, Revan, Maqsud]
 
-a = randint(0, 100)
-b = randint(0, 100)
+mylist = [4, 5, 10, 12, 16]
+
+i = 0
+
+while i < len(mylist):
+    print(mylist[i])
+
+    i += 1
+
+print("#########################")
+for item in mylist:
+    print(item)
+
+print("#########################")
+for i in range(len(mylist)):
+    print("index: ", i)
+    print("element: ", mylist[i])
+
