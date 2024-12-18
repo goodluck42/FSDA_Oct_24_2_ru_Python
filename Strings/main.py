@@ -96,16 +96,16 @@ else:
 
 
 
-text = "hello how are you doing"
-
-# text[0] = 'H'
-
-text = text.replace("hello", "Nazir,")
-
-if "how" in text:
-    print("'how' is in the text")
-
-print(text)
+# text = "hello how are you doing"
+#
+# # text[0] = 'H'
+#
+# text = text.replace("hello", "Nazir,")
+#
+# if "how" in text:
+#     print("'how' is in the text")
+#
+# print(text)
 
 # result = text.split(" ")
 #
@@ -125,3 +125,14 @@ print(text)
 # joined2 = " ".join(words)
 #
 # print(joined2)
+
+word = "rotator"
+# 0 - 6 [len(word) - 1]
+# 1 - 5 [len(word) - 2]
+# 2 - 4 [len(word) - 3]
+
+if word[1] == word[len(word) - 2]:
+    print("eq")
+
+for i in range(len(word)):
+    print(word[i])
